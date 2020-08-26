@@ -2,15 +2,14 @@
     margin: 0;
     padding: 0;
 }
-body{
-    margin: 0;
-    padding: 0;
-}
 header h1{
+    text-shadow:3px 3px 0 #555;
     font-family: 'Baloo 2', cursive;
     font-size: 6em;
     color: #eeeeee;
-    margin-left: 5%;
+    position: absolute;
+    bottom: 8px;
+    left: 16px;
 }
 .header{
     background-image: url(luan3.jpg);
@@ -22,26 +21,41 @@ header h1{
     background-size: cover;
     position: relative;
 }
-.text{
-    padding: 100px 0px;
-    max-width: 200px;
-    text-align: center;
-    font-size: 2em;
-    margin: auto;
+.hobbies{
+    background: rgb(218,218,218);
+background: linear-gradient(0deg, rgba(218,218,218,1) 0%, rgba(255,255,255,1) 100%);
 }
-.foto{
-    background-image: url(luan.jpg);
-    background-color: #cccccc;
-    height: 500px;
-    background-size: 100%;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-    position: relative;
+.container{
+    padding-left: 0rem;
+    padding-right: 0rem;
+    padding-bottom: 6rem;
+}
+.container h2{
+    margin: auto;
+    text-align: center;
+    padding-top: 4rem;
+    padding-bottom: 4rem;
+    
+}
+.cards{
+    margin: auto;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+.card{
+    margin-bottom: 18px;
+}
+.card-body{
+   text-align: center;
 }
 .footer{
+    position: fixed;
+    bottom: 0;
+    width: 100%;
     background-color: #303030;
     color: #cccccc;
+    text-align: center;
 }
 .footer--text{
     text-align: center;
